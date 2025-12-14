@@ -1,4 +1,6 @@
 import { Route, Routes } from "react-router";
+import About from "./pages/About";
+import Coating from "./pages/Coating";
 import Home from "./pages/Home";
 
 function App() {
@@ -6,11 +8,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route
-          path="/about"
-          element={<div className="text-white">About Page</div>}
-        />
-        
+        <Route path="/about" element={<About />} />
+        <Route path="/coating" element={<Coating />} />
       </Routes>
     </>
   );
