@@ -4,7 +4,6 @@ import { MeteorsDemo } from "../components/LinkDisplayCard";
 import { NavbarDemo } from "../components/Navbar";
 
 const stainlessSteelItems = [
-  "Stainless Steel",
   "Stainless Steel Tube",
   "Stainless Steel Pipe",
   "Stainless Steel Sheet",
