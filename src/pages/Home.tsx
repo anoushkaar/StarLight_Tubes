@@ -1,4 +1,5 @@
 import Cta from "../components/CtaSection1";
+import Footer from "../components/Fotter";
 import { ImagesSliderDemo } from "../components/ImageSlider";
 import { MeteorsDemo } from "../components/LinkDisplayCard";
 import { NavbarDemo } from "../components/Navbar";
@@ -58,6 +59,9 @@ const Home = () => {
         </div>
         <div>
           <Cta />
+        </div>
+        <div>
+          <Footer />
         </div>
       </NavbarDemo>
     </div>

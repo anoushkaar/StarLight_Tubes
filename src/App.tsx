@@ -10,6 +10,7 @@ function App() {
           path="/about"
           element={<div className="text-white">About Page</div>}
         />
+        
       </Routes>
     </>
   );

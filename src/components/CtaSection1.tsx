@@ -1,7 +1,7 @@
-export default function Cta() {
+export default function CtaSection1() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-8xl py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:px-24 lg:pt-16 lg:pb-16">
           <svg
             viewBox="0 0 1024 1024"
@@ -28,10 +28,10 @@ export default function Cta() {
               Leading Manufacturer & Exporter of Steel Tubes
             </h2>
             <p className="mt-6 text-lg text-gray-300">
-              Over 30 years of excellence in ERW and Seamless pipe manufacturing
+              Over 10 years of excellence in ERW and Seamless pipe manufacturing
             </p>
 
-            <div className="mt-10 text-sm text-gray-300 leading-relaxed text-left space-y-4">
+            <div className="mt-10 text-sm text-gray-300 leading-relaxed text-left space-y-4 max-w-4xl mx-auto">
               <p>
                 Our Company is established in 1992 as a manufacturer of Steel
                 Tubes, with over 2 decades of experience as India's leading
@@ -77,6 +77,16 @@ export default function Cta() {
                 </a>{" "}
                 is focused on a complete range of Boiler steel materials.
               </p>
+            </div>
+
+            {/* Added a call-to-action button for better engagement */}
+            <div className="mt-10">
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors"
+              >
+                Get in Touch
+              </a>
             </div>
           </div>
         </div>
