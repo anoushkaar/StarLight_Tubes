@@ -16,23 +16,23 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
   const navItems = [
     {
       name: "Home",
-      link: "#home",
+      link: "/",
     },
     {
       name: "About Us",
-      link: "#pricing",
+      link: "about",
     },
     {
       name: "Materials",
-      link: "#materials",
+      link: "materials",
     },
     {
       name: "Coating",
-      link: "#coating",
+      link: "coating",
     },
     {
       name: "Contact",
-      link: "#contact",
+      link: "contact",
     },
   ];
 

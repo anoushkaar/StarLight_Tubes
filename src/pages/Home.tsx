@@ -1,7 +1,8 @@
-import Cta from "../components/CtaSection1";
 import Footer from "../components/Fotter";
+import Cta from "../components/HomeCta";
 import { ImagesSliderDemo } from "../components/ImageSlider";
 import { MeteorsDemo } from "../components/LinkDisplayCard";
+import { InfiniteMovingCardsDemo } from "../components/MovingCards";
 import { NavbarDemo } from "../components/Navbar";
 
 const stainlessSteelItems = [
@@ -52,13 +53,16 @@ const Home = () => {
         <div className="w-full h-fit flex justify-center ">
           <ImagesSliderDemo />
         </div>
-        <div className="max-full h-fit flex md:flex-row flex-col items-center md:justify-center mt-20 mb-20 gap-20">
+        <div className="max-full h-fit flex md:flex-row flex-col items-center md:justify-center mt-40  gap-20">
           <MeteorsDemo title="Stainless Steel" items={stainlessSteelItems} />
           <MeteorsDemo title="Nickel Alloy" items={nickelAlloyItems} />
           <MeteorsDemo title="Carbon Steel" items={carbonSteelItems} />
         </div>
         <div>
           <Cta />
+        </div>
+        <div>
+          <InfiniteMovingCardsDemo />
         </div>
         <div>
           <Footer />

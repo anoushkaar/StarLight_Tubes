@@ -1,6 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { motion, AnimatePresence } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import React, { useEffect, useState } from "react";
 
 export const ImagesSlider = ({
@@ -13,7 +13,7 @@ export const ImagesSlider = ({
   direction = "up",
 }: {
   images: string[];
-  children: React.ReactNode;
+  children: (currentIndex: number) => React.ReactNode;
   overlay?: React.ReactNode;
   overlayClassName?: string;
   className?: string;
@@ -74,7 +74,7 @@ export const ImagesSlider = ({
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
-      }, 750);
+      }, 2000);
     }
 
     return () => {
@@ -95,7 +95,7 @@ export const ImagesSlider = ({
       opacity: 1,
       transition: {
         duration: 0.5,
-        ease: [0.645, 0.045, 0.355, 1.0],
+        ease: [0.645, 0.045, 0.355, 1.0] as const,
       },
     },
     upExit: {
@@ -126,7 +126,7 @@ export const ImagesSlider = ({
         perspective: "1000px",
       }}
     >
-      {areImagesLoaded && children}
+      {areImagesLoaded && children(currentIndex)}
       {areImagesLoaded && overlay && (
         <div
           className={cn("absolute inset-0 bg-black/60 z-40", overlayClassName)}
@@ -141,6 +141,7 @@ export const ImagesSlider = ({
             initial="initial"
             animate="visible"
             exit={direction === "up" ? "upExit" : "downExit"}
+            variants={slideVariants}
             className="image h-full w-full absolute inset-0 object-cover object-center"
           />
         </AnimatePresence>
