@@ -6,6 +6,21 @@ import { InfiniteMovingCardsDemo } from "../components/main components/MovingCar
 import { NavbarDemo } from "../components/main components/Navbar";
 
 const Coating = () => {
+
+  const projects = [
+    {
+      title: "FBE Coated Pipe",
+      img: "./FBE Coated Pipe.png",
+    },
+    {
+      title: "Epoxy Coated Pipe",
+      img: "./Epoxy Coated Pipe.png",
+    },
+    {
+      title: "Epoxy Coated Carbon Steel Pipe",
+      img: "./Epoxy Coated Carbon Steel Pipe.png",
+    },
+  ];
   return (
     <>
       <div className="flex min-h-svh flex-col items-center justify-center">
@@ -33,7 +48,7 @@ const Coating = () => {
                 and corrosion protection for industrial pipelines
               </p>
             </div>
-            <CoatingCtaParent />
+            <CoatingCtaParent  />
           </div>
 
           {/* Manufacturer & Exporter Section */}
@@ -55,7 +70,7 @@ const Coating = () => {
                 corrosion protection and extended service life
               </p>
             </div>
-            <CardHoverEffectDemo />
+            <CardHoverEffectDemo projects={projects} />
           </div>
           {/* Infinite Moving Cards Section */}
           <div>
