@@ -1,9 +1,9 @@
-import { HoverEffect } from "./ui/card-hover-effect";
+import { HoverEffect } from "../ui/card-hover-effect";
 
 export function CardHoverEffectDemo() {
   return (
     <div className="max-w-6xl mx-auto px-2">
-      <HoverEffect className='gap-8' items={projects} />
+      <HoverEffect className="gap-8" items={projects} />
     </div>
   );
 }

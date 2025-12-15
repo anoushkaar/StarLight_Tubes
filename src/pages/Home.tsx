@@ -1,11 +1,11 @@
-import Footer from "../components/Fotter";
-import Cta from "../components/HomeCta";
-import FAQAccordion from "../components/HomeFAQ";
-import StatsGrid from "../components/HomeStats";
-import { ImagesSliderDemo } from "../components/ImageSlider";
-import { MeteorsDemo } from "../components/LinkDisplayCard";
-import { InfiniteMovingCardsDemo } from "../components/MovingCards";
-import { NavbarDemo } from "../components/Navbar";
+import Footer from "../components/main components/Fotter";
+import Cta from "../components/main components/HomeCta";
+import FAQAccordion from "../components/main components/HomeFAQ";
+import StatsGrid from "../components/main components/HomeStats";
+import { ImagesSliderDemo } from "../components/main components/ImageSlider";
+import { MeteorsDemo } from "../components/main components/LinkDisplayCard";
+import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
+import { NavbarDemo } from "../components/main components/Navbar";
 
 const stainlessSteelItems = [
   "Stainless Steel Tube",
@@ -52,10 +52,12 @@ const Home = () => {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
+        {/* Image Slider Section */}
         <div className="w-full h-fit flex justify-center ">
           <ImagesSliderDemo />
         </div>
 
+        {/* Product Categories Section */}
         <div>
           <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-center mb-4 text-gray-900 dark:text-white">

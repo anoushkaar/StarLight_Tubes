@@ -1,4 +1,4 @@
-import { Meteors } from "./ui/meteors";
+import { Meteors } from "../ui/meteors";
 
 export function CoatingCtaParent() {
   return (
@@ -29,7 +29,6 @@ export function CoatingCtaParent() {
             {/* Card 1 - Liquid vs FBE */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-
                 <h2 className="text-xl font-bold text-white">
                   Liquid Epoxy vs FBE Coating
                 </h2>
@@ -69,7 +68,6 @@ export function CoatingCtaParent() {
             {/* Card 2 - High vs Low Build */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-
                 <h2 className="text-xl font-bold text-white">
                   High Build vs Low Build Epoxy
                 </h2>
@@ -109,7 +107,6 @@ export function CoatingCtaParent() {
             {/* Card 3 - Surface Preparation */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-
                 <h2 className="text-xl font-bold text-white">
                   Surface Preparation & Adhesion
                 </h2>
@@ -147,7 +144,6 @@ export function CoatingCtaParent() {
             {/* Card 4 - Corrosion Resistance */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-white/10 hover:border-teal-500/30 transition-all duration-300">
               <div className="flex items-center gap-4 mb-5">
-
                 <h2 className="text-xl font-bold text-white">
                   Corrosion Resistance & Service Life
                 </h2>

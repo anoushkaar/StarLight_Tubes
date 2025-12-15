@@ -1,8 +1,8 @@
-import { WorldMapDemo } from "../components/AboutMap";
-import { CardSpotlightDemo } from "../components/AboutSpotLightCard";
-import Footer from "../components/Fotter";
-import { ImagesSliderDemo } from "../components/ImageSlider";
-import { NavbarDemo } from "../components/Navbar";
+import { WorldMapDemo } from "../components/main components/AboutMap";
+import { CardSpotlightDemo } from "../components/main components/AboutSpotLightCard";
+import Footer from "../components/main components/Fotter";
+import { ImagesSliderDemo } from "../components/main components/ImageSlider";
+import { NavbarDemo } from "../components/main components/Navbar";
 
 const About = () => {
   const heading = "Steel Tubes India";
@@ -13,7 +13,6 @@ const About = () => {
     <>
       <div className="flex min-h-svh flex-col items-center justify-center">
         <NavbarDemo>
-
           {/* Image Slider Section */}
           <div className="w-full h-fit flex justify-center ">
             <ImagesSliderDemo />

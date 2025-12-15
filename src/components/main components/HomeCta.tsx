@@ -11,6 +11,12 @@ export default function CtaSection1() {
           <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-700" />
 
           <div className="relative mx-auto max-w-6xl">
+            {/* Heading */}
+            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white text-center mb-8">
+              StarLight Tubes — India's Leading Steel Pipe Manufacturer &
+              Exporter
+            </h1>
+
             {/* Content Grid */}
             <div className="grid md:grid-cols-2 gap-8 mb-12">
               {/* Left Column */}

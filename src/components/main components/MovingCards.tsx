@@ -1,6 +1,6 @@
 "use client";
 
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards";
+import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 export function InfiniteMovingCardsDemo() {
   return (
@@ -60,17 +60,17 @@ const testimonials = [
   },
   {
     image: "Nickel 201 Tube1.png",
-    name: "Nickel 201 Tube",
+    name: "Nickel 201 Tube1",
     title: "Precision Engineered",
   },
   {
     image: "Nickel 201 Tube2.png",
-    name: "Nickel 201 Tube",
+    name: "Nickel 201 Tube2",
     title: "Chemical Processing Grade",
   },
   {
     image: "Nickel 201 Tube3.png",
-    name: "Nickel 201 Tube",
+    name: "Nickel 201 Tube3",
     title: "Certified Quality Standards",
   },
 ];

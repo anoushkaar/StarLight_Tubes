@@ -43,20 +43,26 @@ export const ImagesSlider = ({
   const loadImages = () => {
     setLoading(true);
     const loadPromises = images.map((image) => {
-      return new Promise((resolve, reject) => {
+      return new Promise<string>((resolve) => {
         const img = new Image();
         img.src = image;
         img.onload = () => resolve(image);
-        img.onerror = reject;
+        img.onerror = () => {
+          console.warn(`Failed to load image: ${image}`);
+          resolve(image); // Still resolve to not block other images
+        };
       });
     });
 
     Promise.all(loadPromises)
       .then((loadedImages) => {
-        setLoadedImages(loadedImages as string[]);
+        setLoadedImages(loadedImages);
         setLoading(false);
       })
-      .catch((error) => console.error("Failed to load images", error));
+      .catch((error) => {
+        console.error("Failed to load images", error);
+        setLoading(false);
+      });
   };
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {

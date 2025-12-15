@@ -1,9 +1,9 @@
-import { CoatingCtaParent } from "../components/CoatingCta";
-import { CardHoverEffectDemo } from "../components/CoatingImgCard";
-import Footer from "../components/Fotter";
-import { ImagesSliderDemo } from "../components/ImageSlider";
-import { InfiniteMovingCardsDemo } from "../components/MovingCards";
-import { NavbarDemo } from "../components/Navbar";
+import { CoatingCtaParent } from "../components/main components/CoatingCta";
+import { CardHoverEffectDemo } from "../components/main components/CoatingImgCard";
+import Footer from "../components/main components/Fotter";
+import { ImagesSliderDemo } from "../components/main components/ImageSlider";
+import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
+import { NavbarDemo } from "../components/main components/Navbar";
 
 const Coating = () => {
   return (

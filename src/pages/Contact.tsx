@@ -1,21 +1,36 @@
-import { ContactCtaParent } from "../components/ContactCta";
-import ContactForm from "../components/ContactForm";
-import Footer from "../components/Fotter";
-import { ImagesSliderDemo } from "../components/ImageSlider";
-import { NavbarDemo } from "../components/Navbar";
+import { ContactCtaParent } from "../components/main components/ContactCta";
+import ContactForm from "../components/main components/ContactForm";
+import Footer from "../components/main components/Fotter";
+import { ImagesSliderDemo } from "../components/main components/ImageSlider";
+import { NavbarDemo } from "../components/main components/Navbar";
 
 const Contact = () => {
   return (
     <div>
       <div className="flex min-h-svh flex-col items-center justify-center">
         <NavbarDemo>
-
           {/* Image Slider Section */}
           <div className="w-full h-fit flex justify-center ">
             <ImagesSliderDemo />
           </div>
+
+          {/* Contact CTA Section Header */}
+          <div className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">
+            <div className="inline-block px-4 py-2 mb-6 rounded-full bg-teal-500/10 border border-teal-500/20">
+              <span className="text-teal-600 dark:text-teal-400 text-sm font-semibold">
+                Contact Information
+              </span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 text-gray-900 dark:text-white">
+              Reach Out To Us
+            </h1>
+            <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-3xl">
+              Visit our office or get in touch through phone and email
+            </p>
+          </div>
+
           {/* Contact CTA Section */}
-          <div className=" w-full h-150 flex justify-center">
+          <div className=" w-full h-fit flex justify-center mb-16">
             <ContactCtaParent />
           </div>
 

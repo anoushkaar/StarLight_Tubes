@@ -1,16 +1,16 @@
 "use client";
 import { motion } from "motion/react";
-import { ImagesSlider } from "./ui/images-slider";
+import { ImagesSlider } from "../ui/images-slider";
 
 export function ImagesSliderDemo() {
   const images = [
-    "./MainScrollableImage/Home.png",
-    "./MainScrollableImage/Home1.png",
-    "./MainScrollableImage/Home2.png",
-    "./MainScrollableImage/Home3.jpg",
-    "./MainScrollableImage/Home4.png",
-    "./MainScrollableImage/Home5.png",
-    "./MainScrollableImage/Home6.png",
+    "/MainScrollableImage/Home.png",
+    "/MainScrollableImage/Home1.png",
+    "/MainScrollableImage/Home2.png",
+    "/MainScrollableImage/Home3.jpg",
+    "/MainScrollableImage/Home4.png",
+    "/MainScrollableImage/Home5.png",
+    "/MainScrollableImage/Home6.png",
   ];
 
   const texts = [
@@ -62,7 +62,6 @@ export function ImagesSliderDemo() {
           }}
           className="z-50 flex flex-col justify-center items-center"
         >
-       
           <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 py-4">
             {texts[currentIndex].title}
           </motion.p>

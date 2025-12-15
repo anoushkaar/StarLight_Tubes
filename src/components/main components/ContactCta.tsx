@@ -1,4 +1,4 @@
-import { Meteors } from "./ui/meteors";
+import { Meteors } from "../ui/meteors";
 
 export function ContactCtaParent() {
   return (
@@ -10,43 +10,41 @@ export function ContactCtaParent() {
             Head Office
           </h1>
 
-            <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
+          <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-              <strong>Address:</strong> Steel Tubes India (Alloy Steel Export
-              Division), Ashtavinayak Building, Office No.303, 3rd Floor,
-              Sadanand Wadi, V.P. Road, Girgaum, Mumbai-400004, Maharashtra,
-              India
+                <strong>Address:</strong> Steel Tubes India (Alloy Steel Export
+                Division), Ashtavinayak Building, Office No.303, 3rd Floor,
+                Sadanand Wadi, V.P. Road, Girgaum, Mumbai-400004, Maharashtra,
+                India
               </span>
             </li>
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-              <strong>Phone:</strong> +91 22-61432000 (30 Lines), 23895908,
-              23822821, 66393996
+                <strong>Phone:</strong> +91 22-61432000 (30 Lines), 23895908,
+                23822821, 66393996
               </span>
             </li>
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-              <strong>Email:</strong> stindia@stindia.com,
-              stindia@stindia.co.in
+                <strong>Email:</strong> stindia@stindia.com,
+                stindia@stindia.co.in
               </span>
             </li>
-            </ul>
-            <hr className="relative z-50 border-gray-700 my-4" />
-            <h2 className="relative z-50 mb-4 text-xl font-bold text-white">
-              Business Hours
-            </h2>
-            <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
-              <li className="flex items-center gap-2 ">
-                <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
-                <span>
-                  Monday - Saturday - 10am to 7pm, Sunday - Closed
-                </span>
-              </li>
-            </ul>
+          </ul>
+          <hr className="relative z-50 border-gray-700 my-4" />
+          <h2 className="relative z-50 mb-4 text-xl font-bold text-white">
+            Business Hours
+          </h2>
+          <ul className="relative z-50 mb-4 text-base font-normal text-slate-500 space-y-2">
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>Monday - Saturday - 10am to 7pm, Sunday - Closed</span>
+            </li>
+          </ul>
 
           {/* Meaty part - Meteor effect */}
           <Meteors number={30} />
