@@ -1,91 +1,110 @@
 export default function CtaSection1() {
   return (
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
-        <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:px-24 lg:pt-16 lg:pb-16">
-          {/* <svg
-            viewBox="0 0 1024 1024"
-            aria-hidden="true"
-            className="absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
-          >
-            <circle
-              r={512}
-              cx={512}
-              cy={512}
-              fill="url(#759c1415-0410-454c-8f7c-9a820de03641)"
-              fillOpacity="0.7"
-            />
-            <defs>
-              <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
-                <stop stopColor="#22c55e" />
-                <stop offset={1} stopColor="#16a34a" />
-              </radialGradient>
-            </defs>
-          </svg> */}
+    <div className="bg-gradient-to-b from-white to-gray-50 dark:from-black dark:to-gray-900">
+      <div className="mx-auto max-w-7xl py-12 sm:px-6 sm:py-16 lg:px-8">
+        <div className="relative isolate overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 px-6 pt-12 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-16 lg:px-24 lg:pt-16 lg:pb-20">
+          {/* Decorative gradient overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-green-500/10 to-blue-500/10 mix-blend-overlay" />
 
-          <div className="mx-auto max-w-8xl text-center ">
-            <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-              Leading Manufacturer & Exporter of Steel Tubes
-            </h2>
-            <p className="mt-6 text-lg text-gray-300">
-              Over 10 years of excellence in ERW and Seamless pipe manufacturing
-            </p>
+          {/* Animated background circles */}
+          <div className="absolute -top-24 -right-24 w-96 h-96 bg-green-500/20 rounded-full blur-3xl animate-pulse" />
+          <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-500/20 rounded-full blur-3xl animate-pulse delay-700" />
 
-            <div className="mt-10 text-md text-gray-300 leading-relaxed text-left space-y-4 max-w-6xl mx-auto">
-              <p>
-                Our Company is established in 1992 as a manufacturer of Steel
-                Tubes, with over 2 decades of experience as India's leading
-                manufacturer & exporter of ERW and Seamless pipe. Size range:
-                ERW Pipe 21.3 mm to 508mm OD, Seamless Pipe 10mm to 508mm OD.
-                Large dia seamless pipes, tubes and ERW pipe manufacturer in
-                India. Govt. recognised export house of High Precision Premium
-                threaded casing and tubing. 3LPE coating facility available.
-              </p>
+          <div className="relative mx-auto max-w-6xl">
+            {/* Content Grid */}
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              {/* Left Column */}
+              <div className="space-y-6">
+                <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-green-500/30 transition-all duration-300">
+                  <h3 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    Our Expertise
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Established in 1992, we are India's premier manufacturer &
+                    exporter of ERW and Seamless pipes. Our size range includes
+                    ERW Pipe from 21.3mm to 508mm OD and Seamless Pipe from 10mm
+                    to 508mm OD.
+                  </p>
+                </div>
 
-              <p>
-                Steel Tubes India is the leading supplier of high quality
-                Seamless Steel Tube, Line Pipe, OCTG & Coated Pipes to Oil & Gas
-                industries and their contractors in more than 60 countries
-                including UAE, Qatar, Bahrain, Oman, Saudi Arabia, Kuwait,
-                Malaysia, Singapore, Indonesia and many more. Steel Tubes India
-                is the only company in India supplying Seamless and ERW Pipes to
-                more than 800 organisations in 60 countries, and we are the
-                largest stockist of seamless steel tube.
-              </p>
+                <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-blue-500/30 transition-all duration-300">
+                  <h3 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                    Welded Steel Pipe
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Premium ERW steel tubes (electric resistance welded) -
+                    round, square and rectangular tubes & ERW box sections
+                    sourced from reputed EU & Indian steel mills, ready for
+                    processing and distribution.
+                  </p>
+                </div>
+              </div>
 
-              <p>
-                <strong className="text-white">Welded Steel Pipe:</strong> Buy
-                ERW steel tube (electric resistance welded) - round, square and
-                rectangular tube & ERW box sections in a range of sizes from
-                stock to suit your specification. Our Steel tubes, boiler tube,
-                heat exchanger tube and sections are sourced from reputed steel
-                mills from EU & India and arrive at our depot in the centre of
-                India ready for processing and distribution.
-              </p>
+              {/* Right Column */}
+              <div className="space-y-6">
+                <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-green-500/30 transition-all duration-300">
+                  <h3 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    Global Reach
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    Leading supplier of Seamless Steel Tube, Line Pipe, OCTG &
+                    Coated Pipes to Oil & Gas industries across UAE, Qatar,
+                    Bahrain, Oman, Saudi Arabia, Kuwait, Malaysia, Singapore,
+                    Indonesia and 60+ countries.
+                  </p>
+                </div>
 
-              <p>
-                We have recently introduced our new division for boiler
-                manufacturers & worldwide companies where boilers are installed.
-                Our new website{" "}
-                <a
-                  href="https://www.stindia.com"
-                  className="underline text-green-400 hover:text-green-300 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  www.stindia.com
-                </a>{" "}
-                is focused on a complete range of Boiler steel materials.
-              </p>
+                <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-blue-500/30 transition-all duration-300">
+                  <h3 className="text-xl font-semibold text-white mb-3 flex items-center gap-2">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                    Boiler Division
+                  </h3>
+                  <p className="text-gray-300 leading-relaxed">
+                    New division for boiler manufacturers offering a complete
+                    range of boiler steel materials. Visit{" "}
+                    <a
+                      href="https://www.stindia.com"
+                      className="underline text-green-400 hover:text-green-300 transition-colors font-medium"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      www.stindia.com
+                    </a>
+                  </p>
+                </div>
+              </div>
             </div>
 
-            {/* Added a call-to-action button for better engagement */}
-            <div className="mt-10">
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md text-white bg-green-600 hover:bg-green-700 transition-colors"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-600 transition-all duration-300 shadow-lg hover:shadow-green-500/50 hover:scale-105"
               >
                 Get in Touch
+                <svg
+                  className="ml-2 w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  />
+                </svg>
+              </a>
+
+              <a
+                href="#products"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-8 py-4 border-2 border-white/20 text-base font-semibold rounded-xl text-white hover:bg-white/10 transition-all duration-300 backdrop-blur-sm"
+              >
+                View Products
               </a>
             </div>
           </div>
