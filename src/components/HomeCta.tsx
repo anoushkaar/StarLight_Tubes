@@ -1,9 +1,9 @@
 export default function CtaSection1() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-8xl py-24 sm:px-6 sm:py-32 lg:px-8">
+      <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:px-24 lg:pt-16 lg:pb-16">
-          <svg
+          {/* <svg
             viewBox="0 0 1024 1024"
             aria-hidden="true"
             className="absolute top-1/2 left-1/2 -z-10 size-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:-translate-x-1/2 lg:translate-y-0"
@@ -21,9 +21,9 @@ export default function CtaSection1() {
                 <stop offset={1} stopColor="#16a34a" />
               </radialGradient>
             </defs>
-          </svg>
+          </svg> */}
 
-          <div className="mx-auto max-w-5xl text-center">
+          <div className="mx-auto max-w-8xl text-center ">
             <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
               Leading Manufacturer & Exporter of Steel Tubes
             </h2>
@@ -31,7 +31,7 @@ export default function CtaSection1() {
               Over 10 years of excellence in ERW and Seamless pipe manufacturing
             </p>
 
-            <div className="mt-10 text-sm text-gray-300 leading-relaxed text-left space-y-4 max-w-4xl mx-auto">
+            <div className="mt-10 text-md text-gray-300 leading-relaxed text-left space-y-4 max-w-6xl mx-auto">
               <p>
                 Our Company is established in 1992 as a manufacturer of Steel
                 Tubes, with over 2 decades of experience as India's leading

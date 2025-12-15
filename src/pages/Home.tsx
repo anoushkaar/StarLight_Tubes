@@ -1,5 +1,7 @@
 import Footer from "../components/Fotter";
 import Cta from "../components/HomeCta";
+import FAQAccordion from '../components/HomeFAQ';
+import StatsGrid from "../components/HomeStats";
 import { ImagesSliderDemo } from "../components/ImageSlider";
 import { MeteorsDemo } from "../components/LinkDisplayCard";
 import { InfiniteMovingCardsDemo } from "../components/MovingCards";
@@ -61,8 +63,19 @@ const Home = () => {
         <div>
           <Cta />
         </div>
+
         <div>
+          <div>
+            <h1 className="text-center">Sagar</h1>
+          </div>
           <InfiniteMovingCardsDemo />
+        </div>
+
+        <div>
+          <FAQAccordion />
+        </div>
+        <div>
+          <StatsGrid />
         </div>
         <div>
           <Footer />
