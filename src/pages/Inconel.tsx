@@ -1,0 +1,87 @@
+import Footer from "../components/main components/Fotter";
+import StatsGrid from "../components/main components/HomeStats";
+import { ImagesSliderDemo } from "../components/main components/ImageSlider";
+import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
+import { NavbarDemo } from "../components/main components/Navbar";
+import { CommonCTA } from "../components/sub components/ StainlessSteelTubeCTA";
+
+const Inconel = () => {
+  const ctaData = {
+    title: "Inconel Products",
+    paragraph1:
+      "Starlight Tubes is India's leading exporter and stockist of premium Inconel superalloy products. We supply high-temperature resistant Inconel pipes, tubes, plates, sheets, round bars, bolts, and tubing designed to perform in the most demanding environments where extreme heat and corrosion resistance are critical.",
+    paragraph2:
+      "Our Inconel products are ideal for aerospace, gas turbines, nuclear reactors, chemical processing, and offshore oil & gas applications. We source from world-class mills and provide complete documentation including mill test certificates, PMI reports, and compliance with ASTM, ASME, AMS, and NACE MR0175 standards.",
+    specifications: [
+      {
+        label: "Grades Available",
+        value: "Inconel 600, 601, 625, 718, 725, 800, 800H, 800HT, 825, X-750",
+      },
+      {
+        label: "Products",
+        value:
+          "Seamless & Welded Pipes, Tubes, Tubing, Plates, Sheets, Round Bars, Bolts, Fasteners",
+      },
+      {
+        label: "Size Range",
+        value:
+          'Pipes: 1/8" to 12" NB | Plates: 1mm to 100mm | Round Bars: 5mm to 350mm',
+      },
+      {
+        label: "Standards",
+        value: "ASTM B167, B168, B407, B408, B409, B423, B444, B446, B564",
+      },
+    ],
+  };
+
+  return (
+    <div className="flex min-h-svh flex-col items-center justify-center">
+      <NavbarDemo>
+        <div className="w-full h-fit flex justify-center">
+          <ImagesSliderDemo />
+        </div>
+
+        <div>
+          {/* Inconel Section Header */}
+          <div className="w-full flex flex-col items-center justify-center mt-20 mb-8 px-4">
+            <div className="inline-block px-4 py-2 mb-6 rounded-full bg-red-500/10 border border-red-500/20">
+              <span className="text-red-600 dark:text-red-400 text-sm font-semibold">
+                Inconel Superalloys
+              </span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-6 text-gray-900 dark:text-white">
+              Inconel Products
+            </h1>
+            <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
+              High-temperature superalloy pipes, tubes, plates, round bars, and
+              fasteners for extreme applications
+            </p>
+          </div>
+
+          {/* Common CTA Section */}
+          <div className="w-full h-fit flex justify-center mb-16">
+            <CommonCTA
+              title={ctaData.title}
+              paragraph1={ctaData.paragraph1}
+              paragraph2={ctaData.paragraph2}
+              specifications={ctaData.specifications}
+            />
+          </div>
+        </div>
+
+        <div>
+          <InfiniteMovingCardsDemo />
+        </div>
+
+        <div>
+          <StatsGrid />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </NavbarDemo>
+    </div>
+  );
+};
+
+export default Inconel;

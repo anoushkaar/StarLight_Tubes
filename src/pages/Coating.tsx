@@ -6,7 +6,6 @@ import { InfiniteMovingCardsDemo } from "../components/main components/MovingCar
 import { NavbarDemo } from "../components/main components/Navbar";
 
 const Coating = () => {
-
   const projects = [
     {
       title: "FBE Coated Pipe",
@@ -48,10 +47,10 @@ const Coating = () => {
                 and corrosion protection for industrial pipelines
               </p>
             </div>
-            <CoatingCtaParent  />
+            <CoatingCtaParent />
           </div>
 
-          {/* Manufacturer & Exporter Section */}
+          {/* Exporter Section */}
 
           <div>
             <div className="w-full flex flex-col items-center justify-center mt-32 mb-12 px-4">

@@ -1,22 +1,51 @@
-import { Facebook, Github, Instagram, Twitter, Youtube } from "lucide-react";
+import { Facebook, Instagram, Linkedin, Twitter, Youtube } from "lucide-react";
+import { Link } from "react-router";
 
 export default function Footer() {
   const footerSections = [
     {
-      title: "Solutions",
-      links: ["Marketing", "Analytics", "Automation", "Commerce", "Insights"],
+      title: "Products",
+      links: [
+        { name: "Stainless Steel", path: "/stainless-steel" },
+        { name: "Carbon Steel", path: "/carbon-steel" },
+        { name: "Nickel Alloys", path: "/nickel-alloys" },
+        { name: "Inconel", path: "/inconel" },
+      ],
     },
     {
-      title: "Support",
-      links: ["Submit ticket", "Documentation", "Guides"],
+      title: "Quick Links",
+      links: [
+        { name: "Home", path: "/" },
+        { name: "About Us", path: "/about" },
+        { name: "Materials", path: "/materials" },
+        { name: "Coating", path: "/coating" },
+        { name: "Contact", path: "/contact" },
+      ],
     },
     {
-      title: "Company",
-      links: ["About", "Blog", "Jobs", "Press"],
+      title: "Popular Products",
+      links: [
+        { name: "SS 304 Pipe", path: "/stainless-steel-304-pipe" },
+        { name: "SS 316 Pipe", path: "/stainless-steel-316l-pipe" },
+        { name: "Inconel 625 Pipe", path: "/inconel-625-pipe" },
+        { name: "Carbon Steel Pipe", path: "/carbon-steel-pipe" },
+      ],
     },
     {
-      title: "Legal",
-      links: ["Terms of service", "Privacy policy", "License"],
+      title: "Contact Info",
+      links: [
+        { name: "📍 Mumbai, Maharashtra", path: "/contact" },
+        {
+          name: "📞 +91 98922 33118",
+          path: "tel:+919892233118",
+          external: true,
+        },
+        {
+          name: "✉️ sales@starlighttubes.com",
+          path: "mailto:sales@starlighttubes.com",
+          external: true,
+        },
+      ],
     },
   ];
 
@@ -71,7 +100,7 @@ export default function Footer() {
                 href="#"
                 className="text-gray-400 hover:text-purple-400 transition-colors"
               >
-                <Github size={20} />
+                <Linkedin size={20} />
               </a>
               <a
                 href="#"
@@ -89,12 +118,21 @@ export default function Footer() {
               <ul className="space-y-3">
                 {section.links.map((link, linkIndex) => (
                   <li key={linkIndex}>
-                    <a
-                      href="#"
-                      className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
-                    >
-                      {link}
-                    </a>
+                    {link.external ? (
+                      <a
+                        href={link.path}
+                        className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+                      >
+                        {link.name}
+                      </a>
+                    ) : (
+                      <Link
+                        to={link.path}
+                        className="text-sm text-gray-400 hover:text-purple-400 transition-colors"
+                      >
+                        {link.name}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>
