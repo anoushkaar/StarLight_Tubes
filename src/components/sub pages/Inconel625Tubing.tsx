@@ -8,16 +8,16 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const Inconel625Tubing = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Inconel Alloy 625 Tube",
+      img: "/inconel-625-tubing/inconel-625-tube-supplier.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Inconel 625 Seamless Tube",
+      img: "/inconel-625-tubing/inconel-625-seamless-tube-suppliers.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Inconel 625 Tubing",
+      img: "/inconel-625-tubing/alloy-625-tubing-suppliers.jpg",
     },
   ];
 

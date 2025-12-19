@@ -8,16 +8,16 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const InconelRoundBar = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Inconel Round Bar",
+      img: "/stainless-steel-round-bar/round-bar.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Inconel Hex Bar",
+      img: "/stainless-steel-round-bar/hex-bar.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Inconel Square Bar",
+      img: "/stainless-steel-round-bar/square-bar.jpg",
     },
   ];
 

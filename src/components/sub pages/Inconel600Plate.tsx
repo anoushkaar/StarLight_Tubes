@@ -8,16 +8,16 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const Inconel600Plate = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Inconel 600 Plate",
+      img: "/inconel-plate/inconel-plate-supplier.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Inconel 600 Sheet",
+      img: "/inconel-plate/inconel-sheet-supplier.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Inconel 600 Coil",
+      img: "/inconel-plate/inconel-coil-supplier.jpg",
     },
   ];
 

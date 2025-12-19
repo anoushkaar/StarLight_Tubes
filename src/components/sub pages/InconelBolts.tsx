@@ -8,16 +8,16 @@ import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 const InconelBolts = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Inconel Bolts",
+      img: "/stainless-steel-fasteners/bolts-stud-bolts-manufacturers.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Inconel Fasteners",
+      img: "/stainless-steel-fasteners/fasteners-nuts-bolts-manufacturer-india.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Inconel Nuts",
+      img: "/stainless-steel-fasteners/nut-nuts-manufacturers-india.jpg",
     },
   ];
 

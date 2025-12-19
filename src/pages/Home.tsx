@@ -48,7 +48,6 @@ const nickelAlloyItems = [
   "Inconel 625 Tubing",
   "Inconel 625 Pipe",
   "Inconel 625 Plate",
-  "Welded Steel Pipe",
 ];
 
 const nickelAlloyLinks = [
@@ -63,7 +62,6 @@ const nickelAlloyLinks = [
   "/inconel-625-tubing",
   "/inconel-625-pipe",
   "/inconel-625-plate",
-  "/welded-steel-pipe",
 ];
 
 const carbonSteelItems = [
@@ -79,18 +77,18 @@ const carbonSteelItems = [
   "A672 Pipe",
 ];
 
-const carbonSteelLinks = [
-  "/carbon-steel-pipe",
-  "/astm-a106-pipe",
-  "/astm-a53-pipe",
-  "/astm-a333-pipe",
-  "/api-5l-grade-b-pipe",
-  "/api-5l-x65-pipe",
-  "/api-5l-x52-pipe",
-  "/api-5l-x42-pipe",
-  "/a671-pipe",
-  "/a672-pipe",
-];
+// const carbonSteelLinks = [
+//   "/carbon-steel-pipe",
+//   "/astm-a106-pipe",
+//   "/astm-a53-pipe",
+//   "/astm-a333-pipe",
+//   "/api-5l-grade-b-pipe",
+//   "/api-5l-x65-pipe",
+//   "/api-5l-x52-pipe",
+//   "/api-5l-x42-pipe",
+//   "/a671-pipe",
+//   "/a672-pipe",
+// ];
 
 const Home = () => {
   // SEO optimization for home page
@@ -137,7 +135,7 @@ const Home = () => {
             <MeteorsDemo
               title="Carbon Steel"
               items={carbonSteelItems}
-              links={carbonSteelLinks}
+              // links={carbonSteelLinks}
             />
           </div>
         </div>
@@ -146,7 +144,7 @@ const Home = () => {
         <div className="w-full flex flex-col items-center justify-center mt-32 mb-0 px-4">
           <div className="inline-block px-4 py-2 mb-6 rounded-full bg-green-500/10 border border-green-500/20 dark:bg-green-500/20 dark:border-green-500/30">
             <span className="text-green-600 dark:text-green-400 text-sm font-semibold">
-                5+ Years of Excellence
+              5+ Years of Excellence
             </span>
           </div>
 
