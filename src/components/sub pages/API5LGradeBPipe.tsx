@@ -9,16 +9,16 @@ import { BottomCTA } from "../sub components/BottomCTA";
 const API5LGradeBPipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "API 5L Grade B Seamless Pipe",
+      img: "/apl-5L/api-5l-pipe-1.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "API 5L Grade b ERW pipe",
+      img: "/apl-5L/api-5l-pipe-2.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "API 5l Grade B Pipe",
+      img: "/apl-5L/api-5l-pipe-3.jpg",
     },
   ];
 

@@ -9,16 +9,16 @@ import { BottomCTA } from "../sub components/BottomCTA";
 const ASTMA106Pipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "ASTM A106 Grade B Pipe",
+      img: "/carbon-steel-pipe/carbon-steel-pipe.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "SA 106 Gr B Sch 40 ERW Pipe",
+      img: "/carbon-steel-pipe/steel-welded-pipe.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "ASTM A106 Seamless Pipe",
+      img: "/carbon-steel-pipe/steel-seamless-pipe.jpg",
     },
   ];
 

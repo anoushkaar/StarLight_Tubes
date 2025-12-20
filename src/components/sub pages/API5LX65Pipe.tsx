@@ -9,16 +9,16 @@ import { BottomCTA } from "../sub components/BottomCTA";
 const API5LX65Pipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "API 5L X65 PSL2 Seamless Pipe",
+      img: "/apl-5L/api-5l-pipe-1.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "ISO 3183 grade L450 ERW Pipe",
+      img: "/apl-5L/api-5l-pipe-2.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "API 5l X65 PSL2 material",
+      img: "/apl-5L/api-5l-pipe-3.jpg",
     },
   ];
 

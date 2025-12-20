@@ -9,16 +9,16 @@ import { BottomCTA } from "../sub components/BottomCTA";
 const CarbonSteelPipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "Carbon Steel Pipe",
+      img: "/carbon-steel-pipe/carbon-steel-pipe.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "Carbon Steel Welded Pipe",
+      img: "/carbon-steel-pipe/steel-welded-pipe.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "Carbon Steel Seamless Pipe",
+      img: "/carbon-steel-pipe/steel-seamless-pipe.jpg",
     },
   ];
 

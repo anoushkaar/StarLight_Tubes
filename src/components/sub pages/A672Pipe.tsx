@@ -9,16 +9,16 @@ import { BottomCTA } from "../sub components/BottomCTA";
 const A672Pipe = () => {
   const projects = [
     {
-      title: "Stainless Steel Tube",
-      img: "/StainlessSteelTube1.png",
+      title: "ASTM A672 Pipe",
+      img: "/carbon-steel-pipe/carbon-steel-pipe.jpg",
     },
     {
-      title: "Stainless Steel Seamless Tubes",
-      img: "/StainlessSteelTube2.png",
+      title: "ASTM A672 Welded Pipe",
+      img: "/carbon-steel-pipe/steel-welded-pipe.jpg",
     },
     {
-      title: "Stainless Steel Tubing",
-      img: "/StainlessSteelTube3.png",
+      title: "A672 Pipe Material",
+      img: "/carbon-steel-pipe/steel-seamless-pipe.jpg",
     },
   ];
 
