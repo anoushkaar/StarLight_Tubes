@@ -77,18 +77,18 @@ const carbonSteelItems = [
   "A672 Pipe",
 ];
 
-// const carbonSteelLinks = [
-//   "/carbon-steel-pipe",
-//   "/astm-a106-pipe",
-//   "/astm-a53-pipe",
-//   "/astm-a333-pipe",
-//   "/api-5l-grade-b-pipe",
-//   "/api-5l-x65-pipe",
-//   "/api-5l-x52-pipe",
-//   "/api-5l-x42-pipe",
-//   "/a671-pipe",
-//   "/a672-pipe",
-// ];
+const carbonSteelLinks = [
+  "/carbon-steel-pipe",
+  "/astm-a106-pipe",
+  "/astm-a53-pipe",
+  "/astm-a333-pipe",
+  "/api-5l-grade-b-pipe",
+  "/api-5l-x65-pipe",
+  "/api-5l-x52-pipe",
+  "/api-5l-x42-pipe",
+  "/a671-pipe",
+  "/a672-pipe",
+];
 
 const Home = () => {
   // SEO optimization for home page
@@ -135,7 +135,7 @@ const Home = () => {
             <MeteorsDemo
               title="Carbon Steel"
               items={carbonSteelItems}
-              // links={carbonSteelLinks}
+              links={carbonSteelLinks}
             />
           </div>
         </div>

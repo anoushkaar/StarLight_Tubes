@@ -1,5 +1,5 @@
 import { CardSpotlight } from "@/components/ui/card-spotlight";
-import { Building2, Globe, Shield, Award } from "lucide-react";
+import { Award, Building2, Globe, Shield } from "lucide-react";
 
 const features = [
   {
