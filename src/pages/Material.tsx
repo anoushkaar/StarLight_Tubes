@@ -1,8 +1,8 @@
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
-import { ImagesSliderDemo } from "../components/main components/ImageSlider";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
 import { NavbarDemo } from "../components/main components/Navbar";
+import { PageHero } from "../components/main components/PageHero";
 import { CommonCTA } from "../components/sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../components/sub components/BottomCTA";
 
@@ -54,9 +54,11 @@ const Material = () => {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
-        <div className="w-full h-fit flex justify-center ">
-          <ImagesSliderDemo />
-        </div>
+        <PageHero
+          title="Premium Industrial Materials"
+          subtitle="High-quality Stainless Steel, Carbon Steel, Nickel Alloys & Inconel Products"
+          image="/MainScrollableImage/Home2.webp"
+        />
 
         <div>
           {/* Materials Section Header */}

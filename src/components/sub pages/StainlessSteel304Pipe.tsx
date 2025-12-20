@@ -1,8 +1,8 @@
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
-import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
+import { PageHero } from "../main components/PageHero";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
 
@@ -69,7 +69,11 @@ const StainlessSteel304Pipe = () => {
       <NavbarDemo>
         {/* Image Slider Section */}
         <div className="w-full h-fit flex justify-center ">
-          <ImagesSliderDemo />
+          <PageHero
+            title="SS 304 Pipes"
+            subtitle="Austenitic stainless steel pipes with excellent corrosion resistance"
+            image="/MainScrollableImage/Home.webp"
+          />
         </div>
 
         {/* 304 Stainless Steel Pipe Section Header */}

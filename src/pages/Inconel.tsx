@@ -1,8 +1,8 @@
 import Footer from "../components/main components/Fotter";
 import StatsGrid from "../components/main components/HomeStats";
-import { ImagesSliderDemo } from "../components/main components/ImageSlider";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
 import { NavbarDemo } from "../components/main components/Navbar";
+import { PageHero } from "../components/main components/PageHero";
 import { CommonCTA } from "../components/sub components/ StainlessSteelTubeCTA";
 
 const Inconel = () => {
@@ -37,9 +37,11 @@ const Inconel = () => {
   return (
     <div className="flex min-h-svh flex-col items-center justify-center">
       <NavbarDemo>
-        <div className="w-full h-fit flex justify-center">
-          <ImagesSliderDemo />
-        </div>
+        <PageHero
+          title="Inconel Products"
+          subtitle="Inconel 600, 625, 718, 800 superalloys for extreme environments"
+          image="/MainScrollableImage/Home3.webp"
+        />
 
         <div>
           {/* Inconel Section Header */}

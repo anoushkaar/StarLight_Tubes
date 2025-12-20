@@ -1,8 +1,8 @@
 import { ContactCtaParent } from "../components/main components/ContactCta";
 import ContactForm from "../components/main components/ContactForm";
 import Footer from "../components/main components/Fotter";
-import { ImagesSliderDemo } from "../components/main components/ImageSlider";
 import { NavbarDemo } from "../components/main components/Navbar";
+import { PageHero } from "../components/main components/PageHero";
 
 const Contact = () => {
   return (
@@ -10,9 +10,13 @@ const Contact = () => {
       <div className="flex min-h-svh flex-col items-center justify-center">
         <NavbarDemo>
           {/* Image Slider Section */}
-          <div className="w-full h-fit flex justify-center ">
-            <ImagesSliderDemo />
-          </div>
+          <PageHero
+            title="Contact Us"
+            subtitle="Get in touch with our team for quotes, inquiries and support"
+            image="/MainScrollableImage/Home4.webp"
+            buttonText="Call Now →"
+            buttonLink="tel:+919892233118"
+          />
 
           {/* Contact CTA Section Header */}
           <div className="w-full flex flex-col items-center justify-center mt-16 mb-8 px-4">

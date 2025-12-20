@@ -1,8 +1,8 @@
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
-import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
+import { PageHero } from "../main components/PageHero";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
 
@@ -69,7 +69,11 @@ const API5LX42Pipe = () => {
       <NavbarDemo>
         {/* Image Slider Section */}
         <div className="w-full h-fit flex justify-center">
-          <ImagesSliderDemo />
+          <PageHero
+            title="API 5L X42 Pipes"
+            subtitle="High-strength pipeline steel"
+            image="/MainScrollableImage/Home.webp"
+          />
         </div>
 
         {/* API 5L X42 Pipe Section Header */}

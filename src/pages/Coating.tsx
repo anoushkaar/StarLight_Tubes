@@ -1,9 +1,9 @@
 import { CoatingCtaParent } from "../components/main components/CoatingCta";
 import { CardHoverEffectDemo } from "../components/main components/CoatingImgCard";
 import Footer from "../components/main components/Fotter";
-import { ImagesSliderDemo } from "../components/main components/ImageSlider";
 import { InfiniteMovingCardsDemo } from "../components/main components/MovingCards";
 import { NavbarDemo } from "../components/main components/Navbar";
+import { PageHero } from "../components/main components/PageHero";
 
 const Coating = () => {
   const projects = [
@@ -25,9 +25,11 @@ const Coating = () => {
       <div className="flex min-h-svh flex-col items-center justify-center">
         <NavbarDemo>
           {/* Image Slider */}
-          <div className="w-full h-fit flex justify-center ">
-            <ImagesSliderDemo />
-          </div>
+          <PageHero
+            title="Epoxy Coating Solutions"
+            subtitle="Industry-leading FBE and epoxy coating for superior corrosion protection"
+            image="/MainScrollableImage/Home3.webp"
+          />
 
           {/* Coating Information Section */}
           <div>

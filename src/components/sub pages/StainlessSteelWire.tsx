@@ -1,8 +1,8 @@
 import { CardHoverEffectDemo } from "../main components/CoatingImgCard";
 import Footer from "../main components/Fotter";
 import StatsGrid from "../main components/HomeStats";
-import { ImagesSliderDemo } from "../main components/ImageSlider";
 import { NavbarDemo } from "../main components/Navbar";
+import { PageHero } from "../main components/PageHero";
 import { CommonCTA } from "../sub components/ StainlessSteelTubeCTA";
 import { BottomCTA } from "../sub components/BottomCTA";
 
@@ -67,7 +67,11 @@ const StainlessSteelWire = () => {
       <NavbarDemo>
         {/* Image Slider Section */}
         <div className="w-full h-fit flex justify-center ">
-          <ImagesSliderDemo />
+          <PageHero
+            title="Stainless Steel Wire"
+            subtitle="High-quality wire for industrial use"
+            image="/MainScrollableImage/Home.webp"
+          />
         </div>
 
         {/* Stainless Steel Wire Section Header */}

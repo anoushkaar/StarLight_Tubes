@@ -1,8 +1,8 @@
 import { WorldMapDemo } from "../components/main components/AboutMap";
 import { CardSpotlightDemo } from "../components/main components/AboutSpotLightCard";
 import Footer from "../components/main components/Fotter";
-import { ImagesSliderDemo } from "../components/main components/ImageSlider";
 import { NavbarDemo } from "../components/main components/Navbar";
+import { PageHero } from "../components/main components/PageHero";
 import { BottomCTA } from "../components/sub components/BottomCTA";
 
 const About = () => {
@@ -32,9 +32,11 @@ const About = () => {
       <div className="flex min-h-svh flex-col items-center justify-center">
         <NavbarDemo>
           {/* Image Slider Section */}
-          <div className="w-full h-fit flex justify-center ">
-            <ImagesSliderDemo />
-          </div>
+          <PageHero
+            title="About Starlight Tubes"
+            subtitle="India's No. 1 Exporter & Stockist of Industrial Steel Products Since 1992"
+            image="/MainScrollableImage/Home1.webp"
+          />
 
           {/* About Section */}
           <div className="w-full max-w-7xl mx-auto px-6 mt-20 mb-20">
