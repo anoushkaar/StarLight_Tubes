@@ -86,8 +86,8 @@ const AluminiumSheet = () => {
             Aluminium Sheets & Plates
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality aluminium sheets for aerospace, automotive,
-            and construction applications
+            Premium quality aluminium sheets for aerospace, automotive, and
+            construction applications
           </p>
         </div>
 

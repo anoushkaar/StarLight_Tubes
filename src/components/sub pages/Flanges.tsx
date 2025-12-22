@@ -86,8 +86,7 @@ const Flanges = () => {
             Industrial Flanges
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality flanges manufactured to meet international
-            standards
+            Premium quality flanges manufactured to meet international standards
           </p>
         </div>
 

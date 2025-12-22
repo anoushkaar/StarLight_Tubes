@@ -85,8 +85,8 @@ const PipeFittings = () => {
             Industrial Pipe Fittings
           </h1>
           <p className="text-lg md:text-xl text-center text-gray-600 dark:text-gray-300 max-w-4xl">
-            Premium quality pipe fittings manufactured to meet
-            international standards
+            Premium quality pipe fittings manufactured to meet international
+            standards
           </p>
         </div>
 
