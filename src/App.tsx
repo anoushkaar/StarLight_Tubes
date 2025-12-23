@@ -43,6 +43,7 @@ import WeldedSteelPipe from "./components/sub pages/WeldedSteelPipe";
 import About from "./pages/About";
 import Aluminium from "./pages/Aluminium";
 import CarbonSteelPage from "./pages/CarbonSteel";
+import Certificates from "./pages/Certificates";
 import Coating from "./pages/Coating";
 import Contact from "./pages/Contact";
 import Copper from "./pages/Copper";
@@ -54,6 +55,7 @@ import NickelAlloysPage from "./pages/NickelAlloys";
 import PageNotFound from "./pages/PageNotFound";
 import Product from "./pages/Product";
 import StainlessSteelPage from "./pages/StainlessSteel";
+import TechnicalInfo from "./pages/TechnicalInfo";
 
 function App() {
   return (
@@ -62,6 +64,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/certificates" element={<Certificates />} />
+        <Route path="/technical-info" element={<TechnicalInfo />} />
         <Route path="/product" element={<Product />} />
         <Route path="/materials" element={<Material />} />
         <Route path="/coating" element={<Coating />} />

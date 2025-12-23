@@ -17,11 +17,11 @@ export default function Footer() {
     {
       title: "Quick Links",
       links: [
-        { name: "Home", path: "/" },
         { name: "About Us", path: "/about" },
-        { name: "Materials", path: "/materials" },
-        { name: "Coating", path: "/coating" },
-        { name: "Contact", path: "/contact" },
+        // { name: "Certificates", path: "/certificates" },
+        { name: "Technical Info", path: "/technical-info" },
+        { name: "Products", path: "/product" },
+        { name: "Contact Us", path: "/contact" },
       ],
     },
     {
