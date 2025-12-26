@@ -10,15 +10,15 @@ const Aluminium7075 = () => {
   const projects = [
     {
       title: "Aluminium 7075 Plate",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg",
     },
     {
       title: "Aluminium 7075 Bar",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/stainless-steel-round-bar/round-bar.jpg",
     },
     {
       title: "Aluminium 7075 Sheet",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg",
     },
   ];
 

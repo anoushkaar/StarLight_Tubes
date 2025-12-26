@@ -10,15 +10,15 @@ const CapFittings = () => {
   const projects = [
     {
       title: "Cap Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/cap-fittings/cap-fitting.jpg",
     },
     {
       title: "Pipe Cap",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/cap-fittings/cap-fitting.jpg",
     },
     {
       title: "End Cap",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/cap-fittings/end-cap.jpg",
     },
   ];
 

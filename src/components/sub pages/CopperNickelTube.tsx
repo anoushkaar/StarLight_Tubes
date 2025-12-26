@@ -10,15 +10,15 @@ const CopperNickelTube = () => {
   const projects = [
     {
       title: "Copper Nickel Tube",
-      img: "/copper-pipe/copper-pipe-supplier1.jpg",
+      img: "/copper-tube/copper-tube-supplier1.jpg",
     },
     {
-      title: "CuNi 90/10 Tube",
-      img: "/copper-pipe/copper-pipe-supplier2.jpg",
+      title: "Copper Nickel Coil Tubing",
+      img: "/copper-tube/copper-tube-supplier2.jpg",
     },
     {
-      title: "CuNi 70/30 Tube",
-      img: "/copper-pipe/copper-pipe-supplier3.jpg",
+      title: "Copper Nickel Tubing",
+      img: "/copper-tube/copper-tube-supplier3.jpg",
     },
   ];
 

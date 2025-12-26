@@ -10,15 +10,15 @@ const ButtWeldFittings = () => {
   const projects = [
     {
       title: "Butt Weld Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/pipe-fittings/buttweld-fitting.jpg",
     },
     {
       title: "Butt Weld Elbow",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/pipe-fittings/pipe-fittings.jpg",
     },
     {
       title: "Butt Weld Tee",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/pipe-fittings/butt-weld-tee.jpg",
     },
   ];
 

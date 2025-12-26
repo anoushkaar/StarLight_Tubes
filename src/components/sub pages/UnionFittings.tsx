@@ -10,15 +10,15 @@ const UnionFittings = () => {
   const projects = [
     {
       title: "Union Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/union-fittings/union-fittings.jpg",
     },
     {
       title: "Threaded Union",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/union-fittings/threaded-union.jpg",
     },
     {
       title: "Socket Weld Union",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/union-fittings/socket-weld-union.jpg",
     },
   ];
 

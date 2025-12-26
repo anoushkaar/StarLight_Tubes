@@ -10,15 +10,15 @@ const AluminiumPipe = () => {
   const projects = [
     {
       title: "Aluminium Pipe",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/alumininum-pipe/aluminium-pipes.jpg",
     },
     {
       title: "Aluminium Seamless Pipe",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/alumininum-pipe/aluminium-seamless-pipes.jpg",
     },
     {
       title: "Aluminium Tube",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/alumininum-pipe/aluminium-tubes.jpg",
     },
   ];
 

@@ -10,15 +10,15 @@ const Flanges = () => {
   const projects = [
     {
       title: "Weld Neck Flange",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/pipe-fittings/flanges.jpg",
     },
     {
       title: "Slip On Flange",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/flanges/slip-on.jpg",
     },
     {
       title: "Blind Flange",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/flanges/blind.jpg",
     },
   ];
 

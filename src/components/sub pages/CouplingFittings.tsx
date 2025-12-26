@@ -10,15 +10,15 @@ const CouplingFittings = () => {
   const projects = [
     {
       title: "Coupling Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/coupling-fittings/coupling-fitting.jpg",
     },
     {
       title: "Full Coupling",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/coupling-fittings/full-coupling.jpg",
     },
     {
       title: "Half Coupling",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/coupling-fittings/half-coupling.jpg",
     },
   ];
 

@@ -13,11 +13,11 @@ const CopperNickelPipe = () => {
       img: "/copper-pipe/copper-pipe-supplier1.jpg",
     },
     {
-      title: "CuNi 90/10 Pipe",
+      title: "Copper Nickel Welded Pipe",
       img: "/copper-pipe/copper-pipe-supplier2.jpg",
     },
     {
-      title: "CuNi 70/30 Pipe",
+      title: "Copper Nickel Seamless Pipe",
       img: "/copper-pipe/copper-pipe-supplier3.jpg",
     },
   ];

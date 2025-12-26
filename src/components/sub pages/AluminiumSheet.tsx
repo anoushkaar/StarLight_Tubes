@@ -10,15 +10,15 @@ const AluminiumSheet = () => {
   const projects = [
     {
       title: "Aluminium Sheet",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg",
     },
     {
       title: "Aluminium Plate",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg",
     },
     {
       title: "Aluminium Coil",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg",
     },
   ];
 

@@ -18,7 +18,7 @@ const CuproNickel9010 = () => {
     },
     {
       title: "Cupro Nickel 90/10 Fittings",
-      img: "/copper-pipe/copper-pipe-supplier3.jpg",
+      img: "/cupro-nickel-90/cupro-nickel-90-10-fittings.jpg",
     },
   ];
 

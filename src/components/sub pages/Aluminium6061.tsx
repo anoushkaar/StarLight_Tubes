@@ -10,15 +10,15 @@ const Aluminium6061 = () => {
   const projects = [
     {
       title: "Aluminium 6061 Pipe",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/alumininum-pipe/aluminium-pipes.jpg",
     },
     {
       title: "Aluminium 6061 Sheet",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg",
     },
     {
       title: "Aluminium 6061 Bar",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/stainless-steel-round-bar/round-bar.jpg",
     },
   ];
 

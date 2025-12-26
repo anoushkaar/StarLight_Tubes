@@ -10,15 +10,15 @@ const ReducerFittings = () => {
   const projects = [
     {
       title: "Reducer Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/reducer-fittings/reducer-fitting.jpg",
     },
     {
       title: "Concentric Reducer",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/reducer-fittings/concentric-reducer.jpg",
     },
     {
       title: "Eccentric Reducer",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/reducer-fittings/eccentric-reducer.jpg",
     },
   ];
 

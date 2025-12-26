@@ -10,15 +10,15 @@ const Aluminium5052 = () => {
   const projects = [
     {
       title: "Aluminium 5052 Sheet",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/stainless-steel-sheet/stainless-steel-plate-supplier.jpg",
     },
     {
       title: "Aluminium 5052 Plate",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/stainless-steel-sheet/stainless-steel-sheet-supplier.jpg",
     },
     {
       title: "Aluminium 5052 Coil",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/stainless-steel-sheet/stainless-steel-coil-supplier.jpg",
     },
   ];
 
