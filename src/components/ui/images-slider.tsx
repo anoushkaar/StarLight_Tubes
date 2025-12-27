@@ -31,7 +31,6 @@ export const ImagesSlider = ({
     setCurrentIndex((prev) => (prev - 1 < 0 ? images.length - 1 : prev - 1));
   }, [images.length]);
 
-  /* ✅ Load ONLY the first image (LCP) */
   useEffect(() => {
     const img = new Image();
     img.src = images[0];
@@ -39,7 +38,6 @@ export const ImagesSlider = ({
     img.onerror = () => setIsFirstLoaded(true);
   }, [images]);
 
-  /* ✅ Preload ONLY the next image — during idle time */
   useEffect(() => {
     if (!isFirstLoaded) return;
 
@@ -93,7 +91,6 @@ export const ImagesSlider = ({
     },
   };
 
-  /* ❌ NO LOADING BUTTON — render immediately */
   if (!isFirstLoaded) {
     return <div className={cn("relative h-full w-full bg-black", className)} />;
   }

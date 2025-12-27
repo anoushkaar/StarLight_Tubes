@@ -6,14 +6,13 @@ import { useEffect, useMemo, useState } from "react";
 
 const CLOUD_NAME = "dtdardvqm";
 
-/* 🔥 Responsive Cloudinary URL */
 const getImageUrl = (publicId: string, width: number) =>
   `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/f_auto,q_auto,w_${width},c_fill/${publicId}`;
 
 export function ImagesSliderDemo() {
   const [imgWidth, setImgWidth] = useState(1600);
 
-  /* ✅ Decide image width ONCE */
+  /* Decide image width ONCE */
   useEffect(() => {
     const w = window.innerWidth;
     if (w < 640) setImgWidth(480); // mobile
@@ -21,7 +20,7 @@ export function ImagesSliderDemo() {
     else setImgWidth(1600); // desktop
   }, []);
 
-  /* ✅ Images generated only once */
+  /* Images generated only once */
   const images = useMemo(
     () => [
       getImageUrl("Home_aaq22e", imgWidth),
@@ -35,7 +34,7 @@ export function ImagesSliderDemo() {
     [imgWidth]
   );
 
-  /* ✅ Preload ONLY the first image (LCP) */
+  /* Preload ONLY the first image (LCP) */
   useEffect(() => {
     const img = new Image();
     img.src = images[0];
