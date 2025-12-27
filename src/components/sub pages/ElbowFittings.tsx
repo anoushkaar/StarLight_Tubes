@@ -10,15 +10,15 @@ const ElbowFittings = () => {
   const projects = [
     {
       title: "Elbow Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/socket-weld/socket-elbow.jpg",
     },
     {
       title: "90° Elbow",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/elbows/90-degree-elbow.jpg",
     },
     {
       title: "45° Elbow",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/elbows/45-degree-elbow.jpg",
     },
   ];
 

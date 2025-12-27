@@ -10,15 +10,15 @@ const AluminiumCoil = () => {
   const projects = [
     {
       title: "Aluminium Coil",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/aluminium-coils/aluminum-coil.jpg",
     },
     {
       title: "Aluminium Strip Coil",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/aluminium-coils/aluminium-strip.png",
     },
     {
       title: "Aluminium Foil Coil",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "aluminium-coils/aluminium-foil.jpg",
     },
   ];
 

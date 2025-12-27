@@ -10,15 +10,15 @@ const Aluminium6063 = () => {
   const projects = [
     {
       title: "Aluminium 6063 Pipe",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/alumininum-pipe/aluminium-pipes.jpg",
     },
     {
       title: "Aluminium 6063 Extrusion",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/aluminium-alloy/aluminum-extrusion.jpg",
     },
     {
       title: "Aluminium 6063 Profile",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/aluminium-alloy/aluminum-profile.jpg",
     },
   ];
 

@@ -10,15 +10,15 @@ const ThreadedFittings = () => {
   const projects = [
     {
       title: "Threaded Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/threaded-fittings/thread-fittings.jpg",
     },
     {
       title: "Threaded Elbow",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/socket-weld/socket-elbow.jpg",
     },
     {
       title: "Threaded Tee",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/socket-weld/socket-tee.jpg",
     },
   ];
 

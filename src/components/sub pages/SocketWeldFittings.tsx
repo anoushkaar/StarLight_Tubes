@@ -10,15 +10,15 @@ const SocketWeldFittings = () => {
   const projects = [
     {
       title: "Socket Weld Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/socket-weld/socket-fittings.jpg",
     },
     {
       title: "Socket Weld Elbow",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/socket-weld/socket-elbow.jpg",
     },
     {
       title: "Socket Weld Tee",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/socket-weld/socket-tee.jpg",
     },
   ];
 

@@ -10,15 +10,15 @@ const CopperFittings = () => {
   const projects = [
     {
       title: "Copper Elbow Fittings",
-      img: "/copper-pipe/copper-pipe-supplier1.jpg",
+      img: "/copper-fittings/copper-elbow-fittings.jpg",
     },
     {
       title: "Copper Tee Fittings",
-      img: "/copper-pipe/copper-pipe-supplier2.jpg",
+      img: "/copper-fittings/copper-tee.jpg",
     },
     {
       title: "Copper Coupling Fittings",
-      img: "/copper-pipe/copper-pipe-supplier3.jpg",
+      img: "/copper-fittings/copper-coupling.webp",
     },
   ];
 

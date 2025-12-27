@@ -10,15 +10,15 @@ const AluminiumRoundBar = () => {
   const projects = [
     {
       title: "Aluminium Round Bar",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/stainless-steel-round-bar/round-bar.jpg",
     },
     {
       title: "Aluminium Hex Bar",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/stainless-steel-round-bar/hex-bar.jpg",
     },
     {
       title: "Aluminium Square Bar",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/stainless-steel-round-bar/square-bar.jpg",
     },
   ];
 

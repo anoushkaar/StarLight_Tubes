@@ -10,15 +10,15 @@ const PipeFittings = () => {
   const projects = [
     {
       title: "Pipe Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/pipe-fittings/pipe-fittings.jpg",
     },
     {
       title: "Butt Weld Fittings",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/pipe-fittings/buttweld-fitting.jpg",
     },
     {
       title: "Flanges",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/pipe-fittings/flanges.jpg",
     },
   ];
 

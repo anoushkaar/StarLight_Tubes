@@ -18,7 +18,7 @@ const CuproNickel7030 = () => {
     },
     {
       title: "Cupro Nickel 70/30 Fittings",
-      img: "/copper-pipe/copper-pipe-supplier3.jpg",
+      img: "/cupro-nickel-90/cupro-nickel-90-10-fittings.jpg",
     },
   ];
 

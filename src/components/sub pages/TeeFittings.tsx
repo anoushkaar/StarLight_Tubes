@@ -10,15 +10,15 @@ const TeeFittings = () => {
   const projects = [
     {
       title: "Tee Fittings",
-      img: "/MainScrollableImage/Home.webp",
+      img: "/socket-weld/socket-tee.jpg",
     },
     {
       title: "Equal Tee",
-      img: "/MainScrollableImage/Home1.webp",
+      img: "/tees/equal-tee.webp",
     },
     {
       title: "Reducing Tee",
-      img: "/MainScrollableImage/Home2.webp",
+      img: "/tees/reducing-tee.png",
     },
   ];
 
