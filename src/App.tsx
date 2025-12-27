@@ -60,7 +60,6 @@ import StainlessSteelWire from "./components/sub pages/StainlessSteelWire";
 import TeeFittings from "./components/sub pages/TeeFittings";
 import ThreadedFittings from "./components/sub pages/ThreadedFittings";
 import UnionFittings from "./components/sub pages/UnionFittings";
-import WeldedSteelPipe from "./components/sub pages/WeldedSteelPipe";
 import About from "./pages/About";
 import Aluminium from "./pages/Aluminium";
 import CarbonSteelPage from "./pages/CarbonSteel";
@@ -150,7 +149,6 @@ function App() {
         <Route path="/inconel-625-tubing" element={<Inconel625Tubing />} />
         <Route path="/inconel-625-pipe" element={<Inconel625Pipe />} />
         <Route path="/inconel-625-plate" element={<Inconel625Plate />} />
-        <Route path="/welded-steel-pipe" element={<WeldedSteelPipe />} />
 
         {/* Carbon Steel Routes */}
         <Route path="/carbon-steel-pipe" element={<CarbonSteelPipe />} />

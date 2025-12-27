@@ -45,7 +45,6 @@ const carbonSteelItems = [
   "API 5L X42 Pipe",
   "A671 Pipe",
   "A672 Pipe",
-  "Welded Steel Pipe",
 ];
 
 const carbonSteelLinks = [
@@ -59,7 +58,6 @@ const carbonSteelLinks = [
   "/api-5l-x42-pipe",
   "/a671-pipe",
   "/a672-pipe",
-  "/welded-steel-pipe",
 ];
 
 // Nickel Alloy Products

@@ -24,12 +24,12 @@ export function NavbarDemo({ children }: { children?: ReactNode }) {
       link: "about",
     },
     {
-      name: "Product",
+      name: "Products",
       link: "product",
     },
     {
-      name: "Materials",
-      link: "materials",
+      name: "Tech Info.",
+      link: "technical-info",
     },
 
     {

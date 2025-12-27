@@ -18,8 +18,9 @@ export default function Footer() {
       title: "Quick Links",
       links: [
         { name: "About Us", path: "/about" },
-        // { name: "Certificates", path: "/certificates" },
+        { name: "Certificates", path: "/certificates" },
         { name: "Technical Info", path: "/technical-info" },
+        { name: "Materials", path: "/materials" },
         { name: "Products", path: "/product" },
         { name: "Contact Us", path: "/contact" },
       ],
@@ -28,9 +29,12 @@ export default function Footer() {
       title: "Popular Products",
       links: [
         { name: "SS 304 Pipe", path: "/stainless-steel-304-pipe" },
-        { name: "SS 316 Pipe", path: "/stainless-steel-316l-pipe" },
         { name: "Inconel 625 Pipe", path: "/inconel-625-pipe" },
         { name: "Carbon Steel Pipe", path: "/carbon-steel-pipe" },
+        { name: "Copper Pipe", path: "/copper-pipe" },
+        { name: "Aluminium Pipe", path: "/aluminium-pipe" },
+        { name: "Pipe Fittings", path: "/pipe-fittings" },
+        { name: "Elbow Fittings", path: "/elbow-fittings" },
       ],
     },
     {

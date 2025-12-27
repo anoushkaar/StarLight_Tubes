@@ -34,12 +34,10 @@ const Certificates = () => {
         <div>
           <CardHoverEffectDemo
             projects={[
-              { img: "/MainScrollableImage/Home.webp", title: "Certificate 1" },
-              { img: "/MainScrollableImage/Home.webp", title: "Certificate 2" },
-              { img: "/MainScrollableImage/Home.webp", title: "Certificate 3" },
-              { img: "/MainScrollableImage/Home.webp", title: "Certificate 4" },
-              { img: "/MainScrollableImage/Home.webp", title: "Certificate 5" },
-              { img: "/MainScrollableImage/Home.webp", title: "Certificate 6" },
+              { img: "/certificates/gst.png", title: "GST Certificate" },
+              { img: "/certificates/export.png", title: "Export Certificate" },
+
+              { img: "/certificates/iso.png", title: "ISO Certificate" },
             ]}
           />
         </div>
