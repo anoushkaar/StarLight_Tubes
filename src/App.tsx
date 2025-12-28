@@ -60,6 +60,7 @@ import StainlessSteelWire from "./components/sub pages/StainlessSteelWire";
 import TeeFittings from "./components/sub pages/TeeFittings";
 import ThreadedFittings from "./components/sub pages/ThreadedFittings";
 import UnionFittings from "./components/sub pages/UnionFittings";
+import WhatsAppButton from "./components/WhatsAppButton";
 import About from "./pages/About";
 import Aluminium from "./pages/Aluminium";
 import CarbonSteelPage from "./pages/CarbonSteel";
@@ -81,6 +82,7 @@ function App() {
   return (
     <>
       <ScrollToTop />
+      <WhatsAppButton />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

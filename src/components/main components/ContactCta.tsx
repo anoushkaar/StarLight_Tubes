@@ -22,6 +22,12 @@ export function ContactCtaParent() {
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
+                <strong>International Inquiries:</strong> +91 85910 70791
+              </span>
+            </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
                 <strong>Phone:</strong> +91 98922 33118
               </span>
             </li>
@@ -57,6 +63,12 @@ export function ContactCtaParent() {
               <span>
                 <strong>Address:</strong> Off.No. 504, B wing, 5th Floor,
                 Meadows Tower, 10th Khetwadi Lane, Mumbai - 400004, India
+              </span>
+            </li>
+            <li className="flex items-center gap-2 ">
+              <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
+              <span>
+                <strong>International Inquiries:</strong> +91 85910 70791
               </span>
             </li>
             <li className="flex items-center gap-2 ">
