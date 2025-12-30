@@ -22,7 +22,7 @@ export function ContactCtaParent() {
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-                <strong>International Inquiries:</strong> +91 85910 70791
+                <strong>International Inquiries:</strong> +91 85914 70791
               </span>
             </li>
             <li className="flex items-center gap-2 ">
@@ -68,7 +68,7 @@ export function ContactCtaParent() {
             <li className="flex items-center gap-2 ">
               <span className="h-1.5 w-1.5 rounded-full bg-teal-400 ml-10"></span>
               <span>
-                <strong>International Inquiries:</strong> +91 85910 70791
+                <strong>International Inquiries:</strong> +91 85914 70791
               </span>
             </li>
             <li className="flex items-center gap-2 ">
